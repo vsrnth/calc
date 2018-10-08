@@ -39,12 +39,12 @@ module Calculator
       self.value / obj2.value
     else
       "The dividend is zero, please give a non-zero input"
-    end 
+    end
   end
 end
 
 
-class Digit 
+class Digit
   include Calculator
   attr_accessor :value
 	@value = 0
