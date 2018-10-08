@@ -2,5 +2,5 @@ language: ruby
 rvm:
   - 2.5.1
 cache: bundler
-install: gem install rspec
+install: bundle install
 script: rspec calc_spec.rb
