@@ -4,22 +4,19 @@ describe Digit do
   it "is able to add numbers" do
     digit1 = Digit.new(19)
     digit2 = Digit.new(20)
-    result = digit1.value + digit2.value
-    expect(digit1.add(digit2)).to eq (result)
+    expect(digit1.add(digit2)).to eq (39)
   end
 
   it "is able to subtract numbers" do
     digit1 = Digit.new(10)
     digit2 = Digit.new(5)
-    result = digit1.value - digit2.value
-    expect(digit1.subtract(digit2)).to eq (result)
+    expect(digit1.subtract(digit2)).to eq (5)
   end
 
   it "is able to multiply numbers" do
     digit1 = Digit.new(10)
     digit2 = Digit.new(15)
-    result = digit1.value * digit2.value
-    expect(digit1.multiply(digit2)).to eq (result)
+    expect(digit1.multiply(digit2)).to eq (150)
   end
 
   it "can handle zero dividend" do
