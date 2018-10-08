@@ -3,4 +3,4 @@ rvm:
   - 2.5.1
 cache: bundler
 install: bundle install
-script: rspec calc_spec.rb
+script: rspec spec/calc_spec.rb
