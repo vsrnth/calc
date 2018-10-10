@@ -1,4 +1,4 @@
-require './calc'
+require './src/calc'
 
 class Digit
   include Calculator
