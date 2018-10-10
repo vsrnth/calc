@@ -4,8 +4,7 @@
 ##  - Write Rspec tests for everything
 ##  - When commit is made to Git travis should run tests.
 ##  - Trigger travis CI Tests when PR opens
-
-
+##  - Fix the Codacy Issues
 
 # Task #2
 ## Write a Rails API which I will send a Hi email to my personal mail
