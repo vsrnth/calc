@@ -1,4 +1,4 @@
-require './calc'
+require '../src/calc'
 
 describe Digit do
   it "is able to add numbers" do

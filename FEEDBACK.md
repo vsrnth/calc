@@ -1,0 +1,3 @@
+- Why modules and no classes.
+- Do better management of how you put yopur classes
+- Make the spec run more generic
